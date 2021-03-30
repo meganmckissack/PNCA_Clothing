@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> links </title>
+
+    </head>
+
+{% hsrf_token %}
+
+    <body>
+        <h1> links </h1>
+        <ul>
+            {% for link in links %}
+                <li>{{ link }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
