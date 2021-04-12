@@ -83,17 +83,16 @@ nav a:hover::before {
     width: 100%;
 }
 
-p {
-    color: pink;
-    margin-left: 30px;
-
-    position: relative;
+.hometext {
+    margin-right: 250px;
 }
+
 h1 i {
     color: pink;
     font-weight: 100;
     margin-left: 50px;
     position: relative;
+    float: left;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
