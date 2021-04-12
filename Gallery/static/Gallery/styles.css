@@ -14,13 +14,23 @@ body {
 }
 
 header {
-    background: #55d6aa;
+    background: #E9e9e1;
 }
 
 header::after {
     content: '';
     display: table;
     clear: both;
+}
+
+h2 a {
+    text-decoration: none;
+
+    color: #444;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+
 }
 
 nav {
@@ -68,4 +78,51 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+p {
+    color: pink;
+    margin-left: 30px;
+
+    position: relative;
+}
+
+.gallery {
+margin: 10px 50;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover {
+
+    transform: scale(1.1);
+}
+
+.s-m {
+    margin: 310px auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 700px;
+}
+.s-m a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #f1f1f1;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: .4s all;
+    line-height: 58px;
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius: 50%;
+
+}
+
+.s-m a:hover {
+    transform: scale(1.1)
 }

@@ -2,7 +2,7 @@
 {% load static %}
 <html lang="en">
 <head>
-<link href="{% static 'Gallery/styles.css' %}" rel= "stylesheet">
+<link href="{% static 'Home_Page/styles.css' %}" rel= "stylesheet">
 <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
 <meta charset="UTF-8">
 <title> Navbar </title>
@@ -23,17 +23,19 @@
         </div>
 
     </header>
-    <div class="gallery">
-        <img src="{% static 'Gallery/elevator.jpg'%}" href="{% static 'Gallery/elevator-zoom.jpg'%}" >
-        <img src="{% static 'Gallery/elevator-zoom.jpg'%}">
+    <p>
+    <div class>
+    <h1><i href="{% url 'Clothing' %}" >Find Clothing That</i></h1>
+    <h1><i href="{% url 'Clothing' %}" >Fits you</i><a href="{% url 'Clothing' %}">♥</a></h1>
+
+    <h1</h1>
+
+     </div>   
     
-    </div>
         <div class="s-m">
             <a class="fa-instagram" href="https://www.instagram.com/emma_____harris/"></a>
             <a class="fa-twitter" href="https://twitter.com/emma_____harris"></a>
         </div>
-    </div>
+    </p>
 </body>
 </html>
-
-
