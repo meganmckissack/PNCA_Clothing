@@ -1,13 +1,12 @@
-body {
+.nav body {
   margin: 0;
   background: #222;
   font-family: 'Work Sans', sans-sarif;
   font-weight: 400;
 }
 
-.logo {
-  padding: 10px 0;
-}
+/*navigation */
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -83,16 +82,39 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+/*text [figure out formatting like in essay section emma]*/
+
+.content body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
 
 p {
-  color: pink;
-  position: relative;
+  margin: 10px;
+  max-width: 4000px;
+  text-indent: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: pink; 
+  font-size: 12pt;
+  text-align: justify;  
+  line-height: 28px;  
+  padding: 10px;
+  margin-top: 10px;
+
 }
 
-b {
-  height: 5px;
-  width: 5px;
+/* bio image part of content body, put to the left of text in row if possible, although column would be better for mobile */
+
+img {
+  position: relative;
+  height: 400px;
+  width: auto;
+  padding: 10px;
+  
 }
+/* social media clickthrough*/
 
 
 .s-m {

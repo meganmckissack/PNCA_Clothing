@@ -1,4 +1,4 @@
-/* the links mods are messing with the navbar, fix that shit emma*/
+/* navbar */
 body {
     margin: 0;
     background: #222;
@@ -84,24 +84,41 @@ nav a:hover::before {
 
 
 
-h1 {
-    color: pink;
-    margin-left: 30px;
-    position: relative;
-    font-size: 30px
+
+/* Links decoration */
+
+
+table {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: fit-content;
 }
-
-p {
-
-    margin-left: 30px;
-
-    position: relative;
-}
-
-ul {
+table caption{
     color: powderblue;
+    font-size: 20px;
 }
 
+table th {
+    text-align: left;
+    color: pink;
+}
+
+table td {
+    color:powderblue;
+    text-decoration: none;
+}
+
+td a{
+    color:powderblue;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+
+
+/* social media clickthrough */
 .s-m {
     margin: 310px auto;
     justify-content: space-around;

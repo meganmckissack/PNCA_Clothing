@@ -1,5 +1,7 @@
 <!-- this page needs links filled out, also css is breaking nav bar-->
 <!-- also!! needs blog aspect, posting capability with django logic-->
+
+
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
@@ -25,92 +27,100 @@
         </div>
 
     </header>
-    <h1> Feminine Clothing Links </h1>
-    <p>
-        <ul name="Links">
-            <h3> Pants </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=449777002&cid=70417&pcid=49922&vid=2&nav=hamnav%3AWomen%27s%20Tall%3A%3AJeans&grid=pds_69_209_1#pdp-page-content">Skinny tall black jeans with rips</a></li>
-            <h3> Shoes </h3>
-            <li><a href="https://www.timberland.com/shop/womens-camdale-6-inch-boots-black-a1sef001?utm_medium=ss&utm_source=google&utm_campaign=Smart+Shopping_Tree&utm_content=Smart+Shopping_Tree&gclid=CjwKCAiAjp6BBhAIEiwAkO9Wuk1jlKdcZBerfDcTag31YbXPE6puMDbicOcUuD_FYMTK3y7x1nlOzBoClrQQAvD_BwE&gclsrc=aw.ds">Timberland 6" Heels</a></li>
-            <h3> Socks </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=5047994320000&cid=1136977#pdp-page-content">Cute Socks that fit up to Womens size 12</a></li>
-            <h3> Swim </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-            <h3> Shirts </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00KRYLGA2?psc=1&ref=ppx_pop_mob_b_asin_image">Basic Hanes womens shirt</a></li>
-            <h3> Jackets </h3>
-            <li><a href="https://www.macys.com/shop/product/dkny-faux-fur-trim-hooded-water-resistant-anorak-coat?ID=11000516&pla_country=US&CAGPSPN=pla&cm_mmc=Google_Womens_PLA-_-RTW_Womens_-_Coats_-_GS_Coats_-_Dkny-_-479552019082-_-pg1052066143_m_kclickid__kenshoo_clickid__KID_EMPTY_11609272988_112810295013_479552019082_aud-244213190948:pla-1016967182534_795730395853USA__m_KID_&trackingid=424x1052066143&m_sc=sem&m_sb=Google&m_tp=PLA&m_ac=Google_Womens_PLA&m_ag=Coats-Dkny&m_cn=RTW_Womens_-_Coats_-_GS&m_pi=go_cmp-11609272988_adg-112810295013_ad-479552019082_aud-244213190948:pla-1016967182534_dev-m_ext-_prd-795730395853USA&gclid=CjwKCAiAjp6BBhAIEiwAkO9WunmZ3WyOqvOpKNd1lut7TewBMuM6EnEABLaA-0NNBsO0QEYqxLdZzhoCgygQAvD_BwE">Jacket with faux fur lined hood</a></li>
-            <li><a href="https://www.carhartt.com/products/carhartt-men-hoodies-sweatshirts/Paxton-Heavyweight-Hooded-Zip-Front-Sweatshirt-100614">Heavyweight zip up hoodie</a></li>
-            <h3> Dresses and Rompers </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=672933022&cid=15292&pcid=15292&vid=1&cpos=47&cexp=2223&kcid=CategoryIDs%3D15292&cvar=16849&ctype=Listing&cpid=res21040518702179285558955">Smocked Fit & Flare Cami Midi Dress</a></li>
-            <h3> Bras </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00L5YLSRO?psc=1&ref=ppx_pop_mob_b_asin_title">Thin bra that fits wider torsos</a></li>
-            <h3> Tucking </h3>
-            <li><a href="https://www.ae.com/us/en/c/aerie/undies/bikini-undies/cat2010008?pagetype=plp">Good everyday underwear for tucking, depending on material(go for cotton)</a></li>
-            <h3> Packers </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-        </ul>
-    </p>
-    <h1> Masculine Clothing Links </h1>
-    <p>
-        <ul name="Links">
-            <h3> Pants </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=449777002&cid=70417&pcid=49922&vid=2&nav=hamnav%3AWomen%27s%20Tall%3A%3AJeans&grid=pds_69_209_1#pdp-page-content">Skinny tall black jeans with rips</a></li>
-            <h3> Shoes </h3>
-            <li><a href="https://www.timberland.com/shop/womens-camdale-6-inch-boots-black-a1sef001?utm_medium=ss&utm_source=google&utm_campaign=Smart+Shopping_Tree&utm_content=Smart+Shopping_Tree&gclid=CjwKCAiAjp6BBhAIEiwAkO9Wuk1jlKdcZBerfDcTag31YbXPE6puMDbicOcUuD_FYMTK3y7x1nlOzBoClrQQAvD_BwE&gclsrc=aw.ds">Timberland 6" Heels</a></li>
-            <h3> Socks </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=5047994320000&cid=1136977#pdp-page-content">Cute Socks that fit up to Womens size 12</a></li>
-            <h3> Swim </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-            <h3> Shirts </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00KRYLGA2?psc=1&ref=ppx_pop_mob_b_asin_image">Basic Hanes womens shirt</a></li>
-            <h3> Jackets </h3>
-            <li><a href="https://www.macys.com/shop/product/dkny-faux-fur-trim-hooded-water-resistant-anorak-coat?ID=11000516&pla_country=US&CAGPSPN=pla&cm_mmc=Google_Womens_PLA-_-RTW_Womens_-_Coats_-_GS_Coats_-_Dkny-_-479552019082-_-pg1052066143_m_kclickid__kenshoo_clickid__KID_EMPTY_11609272988_112810295013_479552019082_aud-244213190948:pla-1016967182534_795730395853USA__m_KID_&trackingid=424x1052066143&m_sc=sem&m_sb=Google&m_tp=PLA&m_ac=Google_Womens_PLA&m_ag=Coats-Dkny&m_cn=RTW_Womens_-_Coats_-_GS&m_pi=go_cmp-11609272988_adg-112810295013_ad-479552019082_aud-244213190948:pla-1016967182534_dev-m_ext-_prd-795730395853USA&gclid=CjwKCAiAjp6BBhAIEiwAkO9WunmZ3WyOqvOpKNd1lut7TewBMuM6EnEABLaA-0NNBsO0QEYqxLdZzhoCgygQAvD_BwE">Jacket with faux fur lined hood</a></li>
-            <li><a href="https://www.carhartt.com/products/carhartt-men-hoodies-sweatshirts/Paxton-Heavyweight-Hooded-Zip-Front-Sweatshirt-100614">Heavyweight zip up hoodie</a></li>
-            <h3> Dresses and Rompers </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=672933022&cid=15292&pcid=15292&vid=1&cpos=47&cexp=2223&kcid=CategoryIDs%3D15292&cvar=16849&ctype=Listing&cpid=res21040518702179285558955">Smocked Fit & Flare Cami Midi Dress</a></li>
-            <h3> Bras </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00L5YLSRO?psc=1&ref=ppx_pop_mob_b_asin_title">Thin bra that fits wider torsos</a></li>
-            <h3> Tucking </h3>
-            <li><a href="https://www.ae.com/us/en/c/aerie/undies/bikini-undies/cat2010008?pagetype=plp">Good everyday underwear for tucking, depending on material(go for cotton)</a></li>
-            <h3> Packers </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-        </ul>
-    </p>
-    <h1> Clothing Links </h1>
-    <p>
-        <ul name="Links">
-            <h3> Pants </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=449777002&cid=70417&pcid=49922&vid=2&nav=hamnav%3AWomen%27s%20Tall%3A%3AJeans&grid=pds_69_209_1#pdp-page-content">Skinny tall black jeans with rips</a></li>
-            <h3> Shoes </h3>
-            <li><a href="https://www.timberland.com/shop/womens-camdale-6-inch-boots-black-a1sef001?utm_medium=ss&utm_source=google&utm_campaign=Smart+Shopping_Tree&utm_content=Smart+Shopping_Tree&gclid=CjwKCAiAjp6BBhAIEiwAkO9Wuk1jlKdcZBerfDcTag31YbXPE6puMDbicOcUuD_FYMTK3y7x1nlOzBoClrQQAvD_BwE&gclsrc=aw.ds">Timberland 6" Heels</a></li>
-            <h3> Socks </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=5047994320000&cid=1136977#pdp-page-content">Cute Socks that fit up to Womens size 12</a></li>
-            <h3> Swim </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-            <h3> Shirts </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00KRYLGA2?psc=1&ref=ppx_pop_mob_b_asin_image">Basic Hanes womens shirt</a></li>
-            <h3> Jackets </h3>
-            <li><a href="https://www.macys.com/shop/product/dkny-faux-fur-trim-hooded-water-resistant-anorak-coat?ID=11000516&pla_country=US&CAGPSPN=pla&cm_mmc=Google_Womens_PLA-_-RTW_Womens_-_Coats_-_GS_Coats_-_Dkny-_-479552019082-_-pg1052066143_m_kclickid__kenshoo_clickid__KID_EMPTY_11609272988_112810295013_479552019082_aud-244213190948:pla-1016967182534_795730395853USA__m_KID_&trackingid=424x1052066143&m_sc=sem&m_sb=Google&m_tp=PLA&m_ac=Google_Womens_PLA&m_ag=Coats-Dkny&m_cn=RTW_Womens_-_Coats_-_GS&m_pi=go_cmp-11609272988_adg-112810295013_ad-479552019082_aud-244213190948:pla-1016967182534_dev-m_ext-_prd-795730395853USA&gclid=CjwKCAiAjp6BBhAIEiwAkO9WunmZ3WyOqvOpKNd1lut7TewBMuM6EnEABLaA-0NNBsO0QEYqxLdZzhoCgygQAvD_BwE">Jacket with faux fur lined hood</a></li>
-            <li><a href="https://www.carhartt.com/products/carhartt-men-hoodies-sweatshirts/Paxton-Heavyweight-Hooded-Zip-Front-Sweatshirt-100614">Heavyweight zip up hoodie</a></li>
-            <h3> Dresses and Rompers </h3>
-            <li><a href="https://oldnavy.gap.com/browse/product.do?pid=672933022&cid=15292&pcid=15292&vid=1&cpos=47&cexp=2223&kcid=CategoryIDs%3D15292&cvar=16849&ctype=Listing&cpid=res21040518702179285558955">Smocked Fit & Flare Cami Midi Dress</a></li>
-            <h3> Bras </h3>
-            <li><a href="https://www.amazon.com/gp/aw/d/B00L5YLSRO?psc=1&ref=ppx_pop_mob_b_asin_title">Thin bra that fits wider torsos</a></li>
-            <h3> Tucking </h3>
-            <li><a href="https://www.ae.com/us/en/c/aerie/undies/bikini-undies/cat2010008?pagetype=plp">Good everyday underwear for tucking, depending on material(go for cotton)</a></li>
-            <h3> Packers </h3>
-            <li><a href="{% url 'Home_Page' %}">Home_Page</a></li>
-    
-    
-        </ul>
+
+        <!--table for links--> 
+    <table>
+        <caption> Tall Feminine Clothing Links</caption>
+            <tr>
+                <th> Pants </th>
+                <th> Links </th>
+            </tr>
+            <tr>
+                <td>Skinny tall black jeans with rips</td>
+                <td><a href="https://oldnavy.gap.com/browse/product.do?pid=449777002&cid=70417&pcid=49922&vid=2&nav=hamnav%3AWomen%27s%20Tall%3A%3AJeans&grid=pds_69_209_1#pdp-page-content">♡</a></td>
+            </tr>
+            <tr>
+                <th>Shoes</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Timberland 6" Heels</td>
+                <td><a href="https://www.timberland.com/shop/womens-camdale-6-inch-boots-black-a1sef001?utm_medium=ss&utm_source=google&utm_campaign=Smart+Shopping_Tree&utm_content=Smart+Shopping_Tree&gclid=CjwKCAiAjp6BBhAIEiwAkO9Wuk1jlKdcZBerfDcTag31YbXPE6puMDbicOcUuD_FYMTK3y7x1nlOzBoClrQQAvD_BwE&gclsrc=aw.ds">♡</a></td>
+            </tr>
+            <tr>
+                <th>Socks</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Cute Socks that fit up to Womens size 12</td>
+                <td><a href="https://oldnavy.gap.com/browse/product.do?pid=5047994320000&cid=1136977#pdp-page-content">♡</a></td>
+            </tr>
+            <tr>
+                <th>Swim</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Knot-Front Bikini Top good on wider torso</td>
+                <td><a href="https://www.target.com/p/women-s-knot-front-crepe-textured-bralette-bikini-top-shade-shore-black/-/A-81449618?preselect=81251855#lnk=sametab">♡</a></td>
+                
+            </tr>
+            <tr>
+                <th>Shirts</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Basic Hanes womens shirt</td>
+                <td><a href="https://www.amazon.com/gp/aw/d/B00KRYLGA2?psc=1&ref=ppx_pop_mob_b_asin_image">♡</a></td>
+            </tr>
+            <tr>
+                <th>Jackets</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Jacket with faux fur lined hood</td>
+                <td><a href="https://www.macys.com/shop/product/dkny-faux-fur-trim-hooded-water-resistant-anorak-coat?ID=11000516&pla_country=US&CAGPSPN=pla&cm_mmc=Google_Womens_PLA-_-RTW_Womens_-_Coats_-_GS_Coats_-_Dkny-_-479552019082-_-pg1052066143_m_kclickid__kenshoo_clickid__KID_EMPTY_11609272988_112810295013_479552019082_aud-244213190948:pla-1016967182534_795730395853USA__m_KID_&trackingid=424x1052066143&m_sc=sem&m_sb=Google&m_tp=PLA&m_ac=Google_Womens_PLA&m_ag=Coats-Dkny&m_cn=RTW_Womens_-_Coats_-_GS&m_pi=go_cmp-11609272988_adg-112810295013_ad-479552019082_aud-244213190948:pla-1016967182534_dev-m_ext-_prd-795730395853USA&gclid=CjwKCAiAjp6BBhAIEiwAkO9WunmZ3WyOqvOpKNd1lut7TewBMuM6EnEABLaA-0NNBsO0QEYqxLdZzhoCgygQAvD_BwE">♡</a></td>
+            </tr>
+            <tr>
+                <td>Heavyweight zip up hoodie</td>
+                <td><a href="https://www.carhartt.com/products/carhartt-men-hoodies-sweatshirts/Paxton-Heavyweight-Hooded-Zip-Front-Sweatshirt-100614">♡</a></td>
+            </tr>
+            <tr>
+                <th>Dresses and Rompers</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Smocked Fit & Flare Cami Midi Dress</td>
+                <td><a href="https://oldnavy.gap.com/browse/product.do?pid=672933022&cid=15292&pcid=15292&vid=1&cpos=47&cexp=2223&kcid=CategoryIDs%3D15292&cvar=16849&ctype=Listing&cpid=res21040518702179285558955">♡</a></td>
+            </tr>
+            <tr>
+                <th>Bras</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Thin bra that fits wider torsos</td>
+                <td><a href="https://www.amazon.com/gp/aw/d/B00L5YLSRO?psc=1&ref=ppx_pop_mob_b_asin_title">♡</a></td>
+            </tr>
+            <tr>
+                <th>Underwear and Tucking</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Good everyday underwear for tucking, depending on material(go for cotton)</td>
+                <td><a href="https://www.ae.com/us/en/c/aerie/undies/bikini-undies/cat2010008?pagetype=plp">♡</a></td>
+            </tr>
+
+            
+        </table>
+
+
 
         <div class="s-m">
             <a class="fa-instagram" href="https://www.instagram.com/emma_____harris/"></a>
             <a class="fa-twitter" href="https://twitter.com/emma_____harris"></a>
         </div>
-
     </p>
+
+
 
 </body>
 </html>

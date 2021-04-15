@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title> Navbar </title>
 </head>
-<body>
+<body class="nav">
     <header>
         <div class="container">
         <h2><a href="{% url 'Home_Page' %}">Emma Harris</a></h2>
@@ -23,8 +23,12 @@
         </div>
 
     </header>
-    <p>
-     <div class="About Text"> 
+</body>
+<body class="content">
+    <div class="bio_image">
+        <img src="{% static 'About/emma.jpg' %}">
+    </div>
+    <div class="About Text"> 
         <h1>ARTIST BIO</h1>
             <p>
                 This website was created by Emma Harris for her undergraduate thesis project. It contains three elements that all explore the same line of inquiry, of self actualization through bodily modification, digitally and physically. In the navigation tabs, you will find an essay, 6 drawings, as well as some links to clothing.
@@ -44,21 +48,21 @@
                 These drawings are graphite representations of selfies that I have taken. They are all taken in mirrors and drawn as a slowed down reflection into how I perceive myself, and how keeping a digital log of self-imagery actualizes one's self conception.
             
                 Please read through my essay for a more detailed investigation of these components.
-                <!-- figure out how to do this shit, css needs to make these links in line and smaller-->
-            
-                 <div class="s-m">
-                    <a href="https://www.instagram.com/emma_____harris/"></a>
-                    <a class="fa-twitter" href="https://twitter.com/emma_____harris"></a>
-                </div>
+
+                Emma Harris Bio:
+
             </p>
+            
+    </div>
+</body>
+    
 
-     </div>
+   
 
-     <div id="About Image">
-
-     </div>
-
-    </p>
+    <div class="s-m">
+        <a href="https://www.instagram.com/emma_____harris/"></a>
+        <a class="fa-twitter" href="https://twitter.com/emma_____harris"></a>
+    </div>
 </body>
 </html>
 

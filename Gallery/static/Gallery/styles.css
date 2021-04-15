@@ -5,9 +5,7 @@ body {
     font-weight: 400;
 }
 
-.logo {
-    padding: 10px 0;
-}
+/* nav */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -80,6 +78,7 @@ nav a:hover::before {
     width: 100%;
 }
 
+/*gallery*/
 p {
     color: pink;
     margin-left: 30px;
@@ -97,11 +96,16 @@ margin: 10px 50;
     width: 200px;
 }
 
+/*figure out how to track along image with mouse hover, like hover over and move around*/
 .gallery img:hover {
 
-    transform: scale(1.1);
+    transform: scale(4);
+    cursor:move;
 }
 
+
+
+/* social media clickthrough */
 .s-m {
     margin: 310px auto;
     justify-content: space-around;

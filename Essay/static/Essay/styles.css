@@ -1,13 +1,12 @@
 body {
     margin: 0;
-    background: #222;
+    background: whitesmoke;
     font-family: 'Work Sans', sans-sarif;
     font-weight: 400;
 }
 
-.logo {
-    padding: 10px 0;
-}
+/*navigation bar*/
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -80,12 +79,36 @@ nav a:hover::before {
     width: 100%;
 }
 
-p {
-    color: pink;
-    margin-left: 30px;
-
-    position: relative;
+/* essay formatting, after written, go in and figuere out how to format*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 30px;
 }
+
+p {
+    margin: 20px;
+    max-width: 650px;
+    text-indent: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #222222; 
+    font-size: 12pt;
+    text-align: justify;  
+    line-height: 28px;  
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+p::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    line-height: .5;
+}
+
+
+/*social media clickthrough*/
 
 .s-m {
     margin: 310px auto;
