@@ -126,7 +126,7 @@ img {
 .s-m a {
   text-decoration: none;
   font-size: 28px;
-  color: #f1f1f1;
+  color: #444;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -138,6 +138,10 @@ img {
 
 }
 
+.s-m a img {
+  max-height: 30px;
+  max-width: 30px;
+}
 .s-m a:hover {
   transform: scale(1.1)
 }
