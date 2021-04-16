@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
 <link href="{% static 'Home_Page/styles.css' %}" rel= "stylesheet">
-<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+<script src="https://kit.fontawesome.com/419f457776.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
-<title> Navbar </title>
+<title> Navbar </title> <!--This title shows up in the web tab-->
 </head>
 <body>
     <header>
@@ -23,7 +23,7 @@
         </div>
 
     </header>
-
+<!-- commenting this block out to test a different method
     <body class="content">   
     <div class="hometext">
         <h1><i href="{% url 'Clothing' %}" >Find Clothing That</i></h1>
@@ -33,7 +33,19 @@
     <div class="homeheart">
         <a href="{% url 'Clothing' %}">♥</a>
     </div>
-    
+-->
+
+    <div class="content">
+        <div class="hometext">
+            <h1>Find Clothing That</h1>
+            <h1>Fits You</h1>
+        </div>
+        <div class="homeheart">
+            <a href="{% url 'Clothing' %}">♥</a>
+        </div>
+    </div>
+
+    <!--commenting out this block to test new font awsome link
     <div class="s-m">
         <a href="https://www.instagram.com/emma_____harris/">
             <img alt="instagram" src="{% static 'Home_Page/instagram-symbol.png' %}">
@@ -42,6 +54,18 @@
         <img alt='twitter' src="{% static 'Home_Page/twitter-symbol.webp' %}">
         </a>
     </div>
+    -->
+    <footer>
+    <div class="s-m">
+        <a href="https://www.instagram.com/emma_____harris/">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/emma_____harris">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+</footer>
+
     </body>
 </body>
 </html>
